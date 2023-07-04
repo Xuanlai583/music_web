@@ -1,7 +1,10 @@
-<?php
-session_start();
-require_once("main/header.php")
-?>
+<?php 
+session_start(); 
+include 'main/functions.php';
+require_once("main/header.php"); 
+$top_songs = get_top_songs($conn);
+?> 
+
 <div class="container">  
 	<ul class="list-group mt-md-3">
 	  <li class="list-group-item">
@@ -95,4 +98,4 @@ require_once("main/header.php")
 </div>
 
 
-<?php require_once("files/footer.php"); ?> 
+<?php require_once("main/footer.php"); ?> 
