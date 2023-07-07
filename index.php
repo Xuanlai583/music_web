@@ -20,7 +20,6 @@ $top_songs = get_top_songs($conn);
 	  	} else $category_name = $c['category_name'];
 	  	if($i>9)
 	  		break;
-
 	  	$i++;
 	  ?>
 	  		  <li class="list-group-item">
