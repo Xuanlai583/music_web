@@ -1,5 +1,6 @@
 <?php 
-$conn = new mysqli("localhost","root","","hmusic");
+$conn = new mysqli("localhost","root","","webmusic");
+
 
 function get_user_by_username($conn,$username){
 	$sql = "SELECT * FROM users WHERE username = '{$username}'";
