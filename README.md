@@ -1,8 +1,6 @@
 # Music-website
 ## Thành viên
-  - Hoàng Việt Hưng 21020079
-  - Vũ Thái Hưng 21020336
-  - Vũ Thế Hoàn 21020321
+
 ## Mô tả Website
   - Link Website demo: https://hmusicdxh.000webhostapp.com/index.php
   ![image](https://user-images.githubusercontent.com/98281111/208007891-a1dcca00-2918-4988-a93f-042de538e703.png)
