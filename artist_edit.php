@@ -66,7 +66,7 @@
 	$a = get_artist_by_artist_id($conn, $artist_id);
 
 ?>
-<?php require_once("files/header.php"); ?> 
+<?php require_once("main/header.php"); ?> 
 <div class="container">
 	
 <!-- 

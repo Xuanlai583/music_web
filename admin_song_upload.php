@@ -120,7 +120,7 @@
 
 	$artists = get_all_artists($conn);
 ?>
-<?php require_once("files/header.php"); ?> 
+<?php require_once("main/header.php"); ?> 
 <div class="container">
 	
 <!-- 

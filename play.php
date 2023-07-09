@@ -1,6 +1,6 @@
 <?php 
 	session_start(); 
-	include 'files/functions.php';
+	include 'main/functions.php';
 	
 	if(!isset($_SESSION['user'])){
 		message("Login before you play a song.","info");
@@ -157,4 +157,4 @@
 	  
 	</ul>
 
-<?php require_once("files/footer.php"); ?> 
+<?php require_once("main/footer.php"); ?> 

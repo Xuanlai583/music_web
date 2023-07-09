@@ -7,7 +7,7 @@
 	}
 
 
-	include 'files/functions.php';
+	include 'main/functions.php';
 	require_once("files/header.php"); 
 
 	$user_id = $_SESSION['user']['user_id'];
@@ -49,4 +49,4 @@
 </div>
 
 
-<?php require_once("files/footer.php"); ?> 
+<?php require_once("main/footer.php"); ?> 

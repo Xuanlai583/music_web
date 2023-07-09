@@ -7,7 +7,7 @@
 		header("Location: login.php");
 		die();
 	}
-	include 'files/functions.php';
+	include 'main/functions.php';
 	$categories = get_all_categories($conn);
 ?>
 <?php require_once("files/header.php"); ?> 

@@ -7,10 +7,10 @@
 		header("Location: login.php");
 		die();
 	}
-	include 'files/functions.php';
+	include 'main/functions.php';
 	$songs = get_popular_songs($conn);
 ?>
-<?php require_once("files/header.php"); ?> 
+<?php require_once("main/header.php"); ?> 
 
 <div class="container">
 	<ul class="list-group mt-md-3">

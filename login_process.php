@@ -1,6 +1,6 @@
 <?php 
 session_start();
-include("files/functions.php");
+include("main/functions.php");
 $username = $_POST['username'];
 $password = $_POST['password'];
 $u = get_user_by_username($conn,$username);
