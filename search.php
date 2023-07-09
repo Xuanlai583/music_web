@@ -1,6 +1,6 @@
 <?php 
 session_start();
-include("main/functions.php");
+include("files/functions.php");
 
 $input = $_POST["search"];
 

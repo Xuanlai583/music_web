@@ -1,7 +1,7 @@
-<?php 
+    <?php 
 session_start(); 
-include 'main/functions.php';
-require_once("main/header.php"); 
+include 'files/functions.php';
+require_once("files/header.php"); 
 $top_songs = get_top_songs($conn);
 ?> 
 
@@ -20,6 +20,7 @@ $top_songs = get_top_songs($conn);
 	  	} else $category_name = $c['category_name'];
 	  	if($i>9)
 	  		break;
+
 	  	$i++;
 	  ?>
 	  		  <li class="list-group-item">
@@ -97,4 +98,4 @@ $top_songs = get_top_songs($conn);
 </div>
 
 
-<?php require_once("main/footer.php"); ?> 
+<?php require_once("files/footer.php"); ?> 

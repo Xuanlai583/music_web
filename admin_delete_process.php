@@ -1,6 +1,6 @@
 <?php 
 	session_start();
-	include 'main/functions.php';
+	include 'files/functions.php';
 
 	$song_id = $_GET['song_id'];
 	$song =  get_top_song_by_song_id($conn,$song_id);

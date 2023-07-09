@@ -1,6 +1,6 @@
 <?php  
 	session_start();
-	include_once ("main/functions.php");
+	include_once ("files/functions.php");
 	$first_name = $_POST['first_name'];
 	$last_name = $_POST['last_name'];
 	$username = $_POST['username'];

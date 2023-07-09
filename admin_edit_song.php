@@ -1,6 +1,6 @@
 <?php 
 	session_start(); 
-	include 'main/functions.php';
+	include 'files/functions.php';
 	if(isset($_SESSION['user'])){
 		 
 	}else{
@@ -120,14 +120,14 @@
 
 	$c = get_category_by_id($conn, $song['category_id']);
 ?>
-<?php require_once("main/header.php"); ?> 
+<?php require_once("files/header.php"); ?> 
 <div class="container">
 	
 <!-- 
 	song_date 
  -->
 	<div class="row pl-0">
-		<?php include 'main/admin_side_bar.php'; ?>
+		<?php include 'files/admin_side_bar.php'; ?>
 		<div class="col-md-8">
 			<h2>Editing  <?php echo($song['song_name']); ?> by <?php echo($song['artist_name']); ?> </h2>
 
@@ -189,6 +189,6 @@
 </div>
 
 
-<?php require_once("main/footer.php"); ?> 
+<?php require_once("files/footer.php"); ?> 
 
   

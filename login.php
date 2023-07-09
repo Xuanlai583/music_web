@@ -1,25 +1,25 @@
-<?php
-session_start();
-require_once("main/header.php");?>
+<?php 
+session_start(); 
+require_once("files/header.php"); ?> 
+<div class="container pt-2 pt-md-5">
 
-<div class="container pt-2 pt-md-5 pb-6">
-    <div class="row">
-        <div class="col-md-6 mt-2">
-            <h2 class="text-center text-dark mb-2">Login</h2>
-            <form action="login.php" method="post">
-                <div class="form-group">
-                    <label for="username">Username</label>
-                    <input type="text" class="form-control" id="username" name="username" placeholder="Enter username">
-                </div>
-                <div class="form-group">
-                    <label for="Password">Password</label>
-                    <input type="password" class="form-control" id="Password" name="password" placeholder="Enter password">
-                </div>
-                <button class="btn btn-dark float-right mt-2">Login</button>
-            </form>
-        </div>
-        <div class="col-md-6">
-        <h2 class="text-center text-dark mb-2">Register</h2>
+	<div class="row">
+		<div class="col-md-6 mt-2">
+			<h2 class="text-center text-dark mb-2">Login</h2>
+			<form action="login_process.php" method="post">
+			  <div class="form-group">
+			    <label for="username">Username</label>
+			    <input type="text" class="form-control" id="username" name="username"  placeholder="Enter username"> 
+			  </div>
+			  <div class="form-group">
+			    <label for="Password">Password</label>
+			    <input type="password" class="form-control" id="Password" name="password" placeholder="Password">
+			  </div> 
+			  <button type="submit" class="btn btn-dark float-right mt-2">Login</button>
+			</form>
+		</div>
+		<div class="col-md-6 mt-2">
+			<h2 class="text-center text-dark mb-2">Register</h2>
 			<form action="register_process.php" method="post">
 			  <div class="form-group">
 			    <label for="first_name">First Name</label>
@@ -38,10 +38,10 @@ require_once("main/header.php");?>
 			    <input type="password" class="form-control" id="Password" name="password"  required="" placeholder="Password">
 			  </div> 
 			  <button type="submit" class="btn btn-dark float-right mt-2">Register</button>
-        </div>
-    </div>
+			</form>
+		</div>
+	</div>
 
+	
 </div>
-<?php
-    require_once("main/footer.php")
-?>
+<?php require_once("files/footer.php"); ?> 

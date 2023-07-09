@@ -1,6 +1,6 @@
 <?php 
 	session_start(); 
-	include 'main/functions.php';
+	include 'files/functions.php';
 	if(isset($_SESSION['user'])){
 		 
 	}else{
@@ -63,7 +63,7 @@
 }	
 
 ?>
-<?php require_once("main/header.php"); ?> 
+<?php require_once("files/header.php"); ?> 
 <!-- 
  			artist_details 	
 
@@ -72,7 +72,7 @@
 	
 
 	<div class="row pl-0">
-		<?php include 'main/admin_side_bar.php'; ?>
+		<?php include 'files/admin_side_bar.php'; ?>
 		<div class="col-md-8">
 			<h2>Adding new artist</h2>
 
@@ -101,6 +101,6 @@
 </div>
 
 
-<?php require_once("main/footer.php"); ?> 
+<?php require_once("files/footer.php"); ?> 
 
   

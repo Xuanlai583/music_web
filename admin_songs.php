@@ -7,16 +7,16 @@
 		header("Location: login.php");
 		die();
 	}
-	include 'main/functions.php';
+	include 'files/functions.php';
 	$current_user = $_SESSION['user']['user_id']; 
 	$songs = get_all_songs_by_user($conn,$current_user);
 ?>
-<?php require_once("main/header.php"); ?> 
+<?php require_once("files/header.php"); ?> 
 
 <div class="container">
  
 	<div class="row">
-		<?php include 'main/admin_side_bar.php'; ?>
+		<?php include 'files/admin_side_bar.php'; ?>
 		<div class="col-md-8">
 			<h2>All Songs</h2>
 
@@ -65,6 +65,6 @@
 </div>
 
 
-<?php require_once("main/footer.php"); ?> 
+<?php require_once("files/footer.php"); ?> 
 
   

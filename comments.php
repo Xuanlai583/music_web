@@ -1,6 +1,6 @@
 <?php 
 session_start();
-include("main/functions.php");
+include("files/functions.php");
 
 $u = $_SESSION['user'];
 $format = "%H:%M:%S %d-%B-%Y";

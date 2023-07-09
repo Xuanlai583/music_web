@@ -6,11 +6,11 @@
 		die();
 	} 
 
-	include 'main/functions.php'; 
+	include 'files/functions.php'; 
 	$artist_id = $_GET['artist_id'];
 	$artist = get_artist_by_artist_id($conn,$artist_id);
    
-	require_once("main/header.php"); 
+	require_once("files/header.php"); 
  	
 
 ?> 
@@ -92,4 +92,4 @@
 </div>
 
 
-<?php require_once("main/footer.php"); ?> 
+<?php require_once("files/footer.php"); ?> 

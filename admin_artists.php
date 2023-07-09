@@ -7,16 +7,16 @@
 		header("Location: login.php");
 		die();
 	}
-	include 'main/functions.php';
+	include 'files/functions.php';
 	$artists = get_all_artists($conn);
 ?>
-<?php require_once("main/header.php"); ?> 
+<?php require_once("files/header.php"); ?> 
 
 <div class="container">
 	
 
 	<div class="row">
-		<?php include 'main/admin_side_bar.php'; ?>
+		<?php include 'files/admin_side_bar.php'; ?>
 		<div class="col-md-8">
 			<h2 style="border-radius: 10px;">All Artists</h2>
  
@@ -56,6 +56,6 @@
 </div>
 
 
-<?php require_once("main/footer.php"); ?> 
+<?php require_once("files/footer.php"); ?> 
 
   
