@@ -7,10 +7,10 @@
 		header("Location: login.php");
 		die();
 	}
-	include 'main/functions.php';
+	include 'files/functions.php';
 	$categories = get_all_categories($conn);
 ?>
-<?php require_once("main/header.php"); ?> 
+<?php require_once("files/header.php"); ?> 
 
 <div class="container">
 	<ul class="list-group mt-md-3">
